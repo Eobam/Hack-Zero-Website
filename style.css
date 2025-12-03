@@ -1,3 +1,14 @@
 .title {
     text-align: center;
-}
+  }
+  
+  .fade-section {
+    opacity: 1;
+    transition: opacity 0.25s linear; 
+    padding: 80px 0;
+  }
+  
+  .fade-section.fade-scroll {
+    transition: opacity 0.6s linear; 
+  }
+  
